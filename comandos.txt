@@ -7,12 +7,12 @@ npm install -g generator-angular
 
 
 -montar estrutura de projeto
-yo angulat -minsafe
+yo angular -minsafe
 
 
--resolver dependência
+-resolver dependÃªncia
 npm install -g bower (instalar bower)
-bower install <dependência>#<versão da dependência>
+bower install <dependÃªncia>#<versÃ£o da dependÃªncia>
 obs.: ver app / bower_components
 
 
