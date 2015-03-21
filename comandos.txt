@@ -1,0 +1,30 @@
+-instalar
+npm install -g yo
+
+
+-instalar gerador de projeto angularjs
+npm install -g generator-angular
+
+
+-montar estrutura de projeto
+yo angulat -minsafe
+
+
+-resolver dependência
+npm install -g bower (instalar bower)
+bower install <dependência>#<versão da dependência>
+obs.: ver app / bower_components
+
+
+-rodar projeto
+npm install -g grunt-cli (instalar grunt)
+grunt server (antigo)
+grunt serve (novo)
+grunt serve -force (ignora alertas de build)
+
+
+-criar controlador angular
+yo angular:controler <nome do controle>
+obs.: ver app / scripts / controllers  e test / spec / controllers
+
+
